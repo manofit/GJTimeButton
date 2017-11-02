@@ -13,6 +13,7 @@
 		E144F5F61FAAB5CC00D4CA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E144F5F51FAAB5CC00D4CA02 /* Assets.xcassets */; };
 		E144F5F91FAAB5CC00D4CA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E144F5F71FAAB5CC00D4CA02 /* LaunchScreen.storyboard */; };
 		E144F6021FAAB70000D4CA02 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144F6011FAAB6FC00D4CA02 /* TimerButton.swift */; };
+		E144F6041FAAC87100D4CA02 /* Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png in Resources */ = {isa = PBXBuildFile; fileRef = E144F6031FAAC86E00D4CA02 /* Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E144F5F81FAAB5CC00D4CA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E144F5FA1FAAB5CC00D4CA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E144F6011FAAB6FC00D4CA02 /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		E144F6031FAAC86E00D4CA02 /* Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E144F5ED1FAAB5CC00D4CA02 /* GJTimeButton */ = {
 			isa = PBXGroup;
 			children = (
+				E144F6031FAAC86E00D4CA02 /* Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png */,
 				E144F6001FAAB61000D4CA02 /* GJTimeButton */,
 				E144F5EE1FAAB5CC00D4CA02 /* AppDelegate.swift */,
 				E144F5F01FAAB5CC00D4CA02 /* ViewController.swift */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E144F5F91FAAB5CC00D4CA02 /* LaunchScreen.storyboard in Resources */,
+				E144F6041FAAC87100D4CA02 /* Simulator Screen Shot - iPhone 8 - 2017-11-02 at 11.16.44.png in Resources */,
 				E144F5F61FAAB5CC00D4CA02 /* Assets.xcassets in Resources */,
 				E144F5F41FAAB5CC00D4CA02 /* Main.storyboard in Resources */,
 			);
