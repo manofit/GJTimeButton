@@ -11,7 +11,7 @@ import QuartzCore
 
 class TimerButton: UIButton {
     
-    let timeLength = 60
+    var timeLength = 60
     var currentTime = 0
     
     var isWorking:Bool = false
@@ -33,13 +33,16 @@ class TimerButton: UIButton {
     
     var timer: Timer?
     
-    func setup(_ startTitle: String?,timeTitlePrefix: String?) {
+    func setup(_ startTitle: String?,timeTitlePrefix: String?,aTimeLength:Int?) {
         layer.addSublayer(timeLayer)
         if startTitle != nil {
             start = startTitle!
         }
         if timeTitlePrefix != nil {
             prefix = timeTitlePrefix!
+        }
+        if aTimeLength != nil{
+            timeLength = aTimeLength!
         }
         restore()
         self.addTarget(self, action: #selector(clickBtn), for: .touchUpInside)

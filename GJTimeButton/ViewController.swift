@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let btn = TimerButton.init(frame:CGRect(x:view.frame.size.width / 2 - 50 , y: 100, width: 100, height: 30))
-        btn.setup("发送", timeTitlePrefix: "剩余")
+        btn.setup("发送", timeTitlePrefix: "剩余", aTimeLength: 120)
         btn.clickBtnEvent = {
             () -> Void in
             
