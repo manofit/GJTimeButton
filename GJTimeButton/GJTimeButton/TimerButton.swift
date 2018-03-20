@@ -60,6 +60,7 @@ class TimerButton: UIButton {
         if currentTime <= 0 {
             restore()
         }
+        //测试
         currentTime -= 1
     }
     
